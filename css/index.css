@@ -127,80 +127,48 @@ table {
   border-spacing: 0;
 }
 /* Set every element's box-sizing to border-box */
-
 * {
   box-sizing: border-box;
 }
 html {
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
-  font-size: 62.5%  
+  font-size: 62.5%;
 }
-
 body {
   margin: 0 auto;
 }
-
 /** SECTION**/
-
-#about, #portfolio, #contact {
+#about,
+#portfolio,
+#contact {
   height: 600px;
 }
-
 /** CONTAINER **/
-
 .container {
   background-color: #bdcbd4;
-  margin: 5%;
+  margin: 0 auto;
 }
-
-header {
+.container header {
   background-color: black;
   background-image: url('../images/desk-area.jpg.jpg');
-  /* text-align: center; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
 }
-
-h1 {
-  color: white;
-  font-size: 4.0rem;
-  text-align: center;
-}
-
-h2, h3 {
-  color: black;
-  font-size: 2.7rem;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-p {
-  font-size: 1.8rem;
-  line-height: 2;
-  text-transform: uppercase;
-}
-
-span {
-  color: #bdcbd4;
-}
-
-.menubar {
+.container header .menubar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
-
-nav {
+.container header .menubar nav {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
-nav a {
+.container header .menubar nav a {
   color: black;
   border: 2px solid black;
   border-radius: 5px;
@@ -212,65 +180,7 @@ nav a {
   text-align: center;
   text-decoration: none;
 }
-
-nav a:hover {
+.container header .menubar nav a :hover {
   background: black;
   color: white;
-}
-
-button {
-  background: lightgray;
-  border: 2px solid black;
-  border-radius: 10px;
-  width: 100px;
-}
-
-button a {
-  color: white;
-  margin: 0 auto;
-  text-decoration: none;
-}
-
-button:hover {
-  background: white;
-}
-
-a:hover {
-  color: black;
-}
-
-#about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5%;
-}
-
-.about-me {
-  align-items: center;
-  justify-content: space-between;
-  margin: 5%;
-  width: 50%;
-}
-
-ul, li {
-  border: 2px solid darkgray;
-  border-radius: 2px;
-  font-size: 1.8rem;
-  list-style: none;
-  margin: 5%;
-  text-align: center;
-}
-
-#portfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
-}
-
-.my-portfolio {
-  align-items: center;
-  justify-content: center;
-  width: 100%;
 }
