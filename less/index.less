@@ -71,6 +71,18 @@ table {
   
   /** CONTAINER **/
 
+  // VARIABLES
+
+  @backgroundBlack: black;
+
+  //MIXIN
+
+  .blackText {
+	  color: @backgroundBlack;
+	  font-size: 2rem;
+  }
+
+
   .container {
 	  background-color: #bdcbd4;
 	  margin: 0 auto;
@@ -106,7 +118,7 @@ table {
 					  text-align: center;
 					  text-decoration: none;
 
-					  :hover {
+					  &:hover {
 						  background: black;
 						  color: white;
 					  }

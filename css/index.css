@@ -145,6 +145,10 @@ body {
   height: 600px;
 }
 /** CONTAINER **/
+.blackText {
+  color: black;
+  font-size: 2rem;
+}
 .container {
   background-color: #bdcbd4;
   margin: 0 auto;
@@ -180,7 +184,7 @@ body {
   text-align: center;
   text-decoration: none;
 }
-.container header .menubar nav a :hover {
+.container header .menubar nav a:hover {
   background: black;
   color: white;
 }
