@@ -209,3 +209,14 @@ body {
   margin: 5%;
   text-align: center;
 }
+.container #portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+.container #portfolio .my-portfolio {
+  align-items: center;
+  justify-content: center
+			  width 100%;
+}
