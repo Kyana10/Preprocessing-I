@@ -71,6 +71,10 @@ table {
   
   /** CONTAINER **/
 
+  // FONT-STACK
+
+  @font-stack: 'Arial' "sans-serif";
+
   // VARIABLES
 
   @backgroundBlack: black;
@@ -126,6 +130,30 @@ table {
 			  }
 		  }
 	  }
+
+	  #about {
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-top: 5%;
+
+		  .about-me {
+			  align-items: center;
+			  justify-content: space-between;
+			  margin: 5%;
+			  width: 50%;
+
+			  ul, li {
+				  border: 2px solid darkgray;
+				  border-radius: 2px;
+				  font-size: 1.8rem;
+				  list-style: none;
+				  margin: 5%;
+				  text-align: center;
+			  }
+		  }
+	  }
+
   }
   
 //   .container {
