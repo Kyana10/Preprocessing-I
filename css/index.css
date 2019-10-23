@@ -157,7 +157,7 @@ h2,
 h3 {
   color: black;
   font-size: 2.7rem;
-  margin-bottom: 2rem;
+  margin: 2rem;
   text-align: center;
 }
 p {
@@ -187,19 +187,21 @@ header .menubar {
 }
 header .menubar nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
 }
 header .menubar nav a {
-  color: black;
-  border: 0.2rem solid black;
+  color: white;
+  background-color: black;
+  border: 0.2rem solid white;
   border-radius: 0.5rem;
   display: flex;
   text-align: center;
   text-decoration: none;
   font-size: 2rem;
+  padding: 0.5rem;
 }
 header .menubar nav a:hover {
-  background: black;
-  color: white;
+  color: black;
+  background: whitesmoke;
 }

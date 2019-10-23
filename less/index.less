@@ -97,7 +97,7 @@ table {
   h2, h3 {
 	  color: black;
 	  font-size: 2.7rem;
-	  margin-bottom: 2.0rem;
+	  margin: 2rem;
 	  text-align: center;
   }
 
@@ -133,24 +133,27 @@ header {
 
 		nav {
 			display: flex;
-			justify-content: center;
+			justify-content: space-evenly;
 			width: 100%;
 
 			a {
-				color: black;
-				border: 0.2rem solid black;
+				color: white;
+				background-color: black;
+				border: 0.2rem solid white;
 				border-radius: 0.5rem;
 				display: flex;
 				text-align: center;
 				text-decoration: none;
 				font-size: 2.0rem;
+				padding: .5rem;
 
 				&:hover {
-					background: black;
-					color: white;
-				} //end of hover
+					color: black;
+					background: whitesmoke;
+				}
 			} //end of a
 		} // end of nav
 	} // end of menubar
 } // end of header
+
 
