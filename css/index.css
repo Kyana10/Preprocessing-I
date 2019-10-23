@@ -142,9 +142,8 @@ body {
 #about,
 #portfolio,
 #contact {
-  height: 600px;
+  height: 170%;
 }
-/** CONTAINER **/
 .blackText {
   color: black;
   font-size: 2rem;
@@ -158,7 +157,7 @@ h2,
 h3 {
   color: black;
   font-size: 2.7rem;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   text-align: center;
 }
 p {
@@ -166,74 +165,41 @@ p {
   line-height: 2;
   text-transform: uppercase;
 }
+span {
+  color: #bdcbd4;
+}
 .container {
   background-color: #bdcbd4;
   margin: 0 auto;
 }
-.container header {
+header {
   background-color: black;
   background-image: url('../images/desk-area.jpg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
-.container header .menubar {
+header .menubar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
 }
-.container header .menubar nav {
+header .menubar nav {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.container header .menubar nav a {
+header .menubar nav a {
   color: black;
-  border: 2px solid black;
-  border-radius: 5px;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
   display: flex;
-  font-size: large;
-  font-weight: 400;
-  margin: 20px;
-  padding: 10px;
   text-align: center;
   text-decoration: none;
+  font-size: 2rem;
 }
-.container header .menubar nav a:hover {
+header .menubar nav a:hover {
   background: black;
   color: white;
-}
-.container #about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5%;
-}
-.container #about .about-me {
-  align-items: center;
-  justify-content: space-between;
-  margin: 5%;
-  width: 50%;
-}
-.container #about .about-me ul,
-.container #about .about-me li {
-  border: 2px solid darkgray;
-  border-radius: 2px;
-  font-size: 1.8rem;
-  list-style: none;
-  margin: 5%;
-  text-align: center;
-}
-.container #portfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
-}
-.container #portfolio .my-portfolio {
-  align-items: center;
-  justify-content: center
-			  width: 100%;
 }

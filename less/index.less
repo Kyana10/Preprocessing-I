@@ -53,6 +53,7 @@ table {
 * {
 	box-sizing: border-box;
   }
+  
   html {
 	box-sizing: border-box;
 	font-family: 'Quicksand', sans-serif;
@@ -66,10 +67,9 @@ table {
   /** SECTION**/
   
   #about, #portfolio, #contact {
-	height: 600px;
+	height: 170%;
   }
   
-  /** CONTAINER **/
 
   // FONT-STACK
 
@@ -97,7 +97,7 @@ table {
   h2, h3 {
 	  color: black;
 	  font-size: 2.7rem;
-	  margin-bottom: 20px;
+	  margin-bottom: 2.0rem;
 	  text-align: center;
   }
 
@@ -107,213 +107,50 @@ table {
 	  text-transform: uppercase;
   }
 
-
-  .container {
-	  background-color: #bdcbd4;
-	  margin: 0 auto;
-
-	  header {
-		  background-color: black;
-		  background-image: url('../images/desk-area.jpg.jpg');
-		  background-position: center;
-		  background-repeat: no-repeat;
-		  background-size: cover;
-		  height: 500px;
-
-		  .menubar {
-			  display: flex;
-			  justify-content: space-between;
-			  align-items: center;
-			  height: 100%;
-
-			  nav {
-				  display: flex;
-				  justify-content: center;
-				  width: 100%;
-
-				  a {
-					  color: black;
-					  border: 2px solid black;
-					  border-radius: 5px;
-					  display: flex;
-					  font-size: large;
-					  font-weight: 400;
-					  margin: 20px;
-					  padding: 10px;
-					  text-align: center;
-					  text-decoration: none;
-
-					  &:hover {
-						  background: black;
-						  color: white;
-					  }
-				  }
-			  }
-		  }
-	  }
-
-	  #about {
-		  display: flex;
-		  align-items: center;
-		  justify-content: center;
-		  margin-top: 5%;
-
-		  .about-me {
-			  align-items: center;
-			  justify-content: space-between;
-			  margin: 5%;
-			  width: 50%;
-
-			  ul, li {
-				  border: 2px solid darkgray;
-				  border-radius: 2px;
-				  font-size: 1.8rem;
-				  list-style: none;
-				  margin: 5%;
-				  text-align: center;
-			  }
-		  }
-	  }
-
-	  #portfolio {
-		  display: flex;
-		  flex-direction: column;
-		  justify-content: center;
-		  margin: 20px;
-
-		  .my-portfolio {
-			  align-items: center;
-			  justify-content: center
-			  width: 100%;
-		  }
-	  }
-
+  span {
+	  color: #bdcbd4;
   }
-  
-//   .container {
-// 	background-color: #bdcbd4;
-// 	margin: 5%;
-//   }
-  
-//    header {
-// 	background-color: black;
-// 	background-image: url('../images/desk-area.jpg.jpg');
-// 	/* text-align: center; */
-// 	background-position: center;
-// 	background-repeat: no-repeat;
-// 	background-size: cover;
-// 	height: 500px;
-//   }
-  
-//   h1 {
-// 	color: white;
-// 	font-size: 4.0rem;
-// 	text-align: center;
-//   }
-  
-//   h2, h3 {
-// 	color: black;
-// 	font-size: 2.7rem;
-// 	margin-bottom: 20px;
-// 	text-align: center;
-//   }
-  
-//   p {
-// 	font-size: 1.8rem;
-// 	line-height: 2;
-// 	text-transform: uppercase;
-//   }
-  
-//   span {
-// 	color: #bdcbd4;
-//   }
-  
-//   .menubar {
-// 	display: flex;
-// 	justify-content: space-between;
-// 	align-items: center;
-// 	height: 100%;
-//   }
-  
-//   nav {
-// 	display: flex;
-// 	justify-content: center;
-// 	width: 100%;
-//   }
-  
-//   nav a {
-// 	color: black;
-// 	border: 2px solid black;
-// 	border-radius: 5px;
-// 	display: flex;
-// 	font-size: large;
-// 	font-weight: 400;
-// 	margin: 20px;
-// 	padding: 10px;
-// 	text-align: center;
-// 	text-decoration: none;
-//   }
-  
-//   nav a:hover {
-// 	background: black;
-// 	color: white;
-//   }
-  
-//   button {
-// 	background: lightgray;
-// 	border: 2px solid black;
-// 	border-radius: 10px;
-// 	width: 100px;
-//   }
-  
-//   button a {
-// 	color: white;
-// 	margin: 0 auto;
-// 	text-decoration: none;
-//   }
-  
-//   button:hover {
-// 	background: white;
-//   }
-  
-//   a:hover {
-// 	color: black;
-//   }
-  
-//   #about {
-// 	display: flex;
-// 	align-items: center;
-// 	justify-content: center;
-// 	margin-top: 5%;
-//   }
-  
-//   .about-me {
-// 	align-items: center;
-// 	justify-content: space-between;
-// 	margin: 5%;
-// 	width: 50%;
-//   }
-  
-//   ul, li {
-// 	border: 2px solid darkgray;
-// 	border-radius: 2px;
-// 	font-size: 1.8rem;
-// 	list-style: none;
-// 	margin: 5%;
-// 	text-align: center;
-//   }
-  
-//   #portfolio {
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: center;
-// 	margin: 20px;
-//   }
-  
-//   .my-portfolio {
-// 	align-items: center;
-// 	justify-content: center;
-// 	width: 100%;
-//   }
 
+  // CONTAINER
+
+.container {
+	background-color: #bdcbd4;
+	margin: 0 auto;
+}
+
+header {
+	background-color: black;
+	background-image: url('../images/desk-area.jpg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+
+	.menubar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		nav {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+
+			a {
+				color: black;
+				border: 0.2rem solid black;
+				border-radius: 0.5rem;
+				display: flex;
+				text-align: center;
+				text-decoration: none;
+				font-size: 2.0rem;
+
+				&:hover {
+					background: black;
+					color: white;
+				} //end of hover
+			} //end of a
+		} // end of nav
+	} // end of menubar
+} // end of header
 
