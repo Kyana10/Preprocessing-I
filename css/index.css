@@ -168,17 +168,13 @@ p {
 span {
   color: #bdcbd4;
 }
-.container {
-  background-color: #bdcbd4;
-  margin: 0 auto;
-}
 header {
   background-color: black;
   background-image: url('../images/desk-area.jpg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 90vh;
 }
 header .menubar {
   display: flex;
