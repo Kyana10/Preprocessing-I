@@ -54,8 +54,10 @@ table {
 	box-sizing: border-box;
   }
   
+ 
   html {
 	box-sizing: border-box;
+	height: 100%;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 62.5%  
   }
@@ -88,12 +90,6 @@ table {
 
   // ELEMENTS
 
-  h1 {
-	  color: white;
-	  font-size: 4.0rem;
-	  text-align: center;
-  }
-
   h2, h3 {
 	  color: black;
 	  font-size: 2.7rem;
@@ -118,7 +114,7 @@ header {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 90vh;
+	height: 100vh;
 
 	.menubar {
 		display: flex;
@@ -149,5 +145,22 @@ header {
 		} // end of nav
 	} // end of menubar
 } // end of header
+
+div {
+	h1 {
+		color: white;
+		font-size: 5.5rem;
+		text-align: center;
+		margin: 10%;
+	} // end of h1
+} //end of div
+
+#about {
+	height: 80vh;
+
+	.about-me {
+		width: 100%;
+	}
+}
 
 
