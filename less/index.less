@@ -111,7 +111,11 @@ table {
 
   span {
 	  color: #bdcbd4;
-    }
+	}
+	
+	i {
+		font-size: 26px;
+	}
 
 /*Header Section*/
 header {
@@ -161,16 +165,20 @@ header {
 			margin: 10%;
 		}
 		// end of h1
-	}
-	// end of div
+	}	// end of div
 }
 // end of titles
 
 
-/* About Section*/
+// ABOUT SECTION
+
 #about {
-	background-color: ;
+	background-color: lavender;
 	height: 80vh;
+
+	@media (max-width: 960px ) {
+		background-color: rgb(60, 110, 175);
+	}
 
 	.text-container {
 		display: flex;
@@ -178,8 +186,39 @@ header {
 
 		div {
 			width: 60%;
+			text-align: center;
+			background-color: white;
+			padding: 2%;
 		}
+		// end of div
 	}
+	// end of text-container
 }
+// end of about
+
+// SKILLS SECTION
+
+#skills {
+	background-color: lavender;
+
+	h2 {
+		text-align: center;
+	}
+
+	.skills-container {
+		display: flex;
+		justify-content: space-around;
+
+		div {
+			width: 25%;
+			padding: 2%;
+			text-align: center;
+			background-color: white;
+		}
+		// End of div
+	}
+	// end of skills container
+}
+// end of skills section
 
 

@@ -167,6 +167,9 @@ p {
 span {
   color: #bdcbd4;
 }
+i {
+  font-size: 26px;
+}
 /*Header Section*/
 header {
   background-color: black;
@@ -206,10 +209,14 @@ header nav a:hover {
   font-size: 5.5rem;
   margin: 10%;
 }
-/* About Section*/
 #about {
-  background-color: ;
+  background-color: lavender;
   height: 80vh;
+}
+@media (max-width: 960px) {
+  #about {
+    background-color: #3c6eaf;
+  }
 }
 #about .text-container {
   display: flex;
@@ -217,4 +224,23 @@ header nav a:hover {
 }
 #about .text-container div {
   width: 60%;
+  text-align: center;
+  background-color: white;
+  padding: 2%;
+}
+#skills {
+  background-color: lavender;
+}
+#skills h2 {
+  text-align: center;
+}
+#skills .skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+#skills .skills-container div {
+  width: 25%;
+  padding: 2%;
+  text-align: center;
+  background-color: white;
 }
