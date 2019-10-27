@@ -157,6 +157,7 @@ h3 {
   font-size: 2.7rem;
   margin: 2rem;
   text-align: center;
+  font-weight: bold;
 }
 p {
   font-size: 1.8rem;
@@ -166,6 +167,7 @@ p {
 span {
   color: #bdcbd4;
 }
+/*Header Section*/
 header {
   background-color: black;
   background-image: url('../images/desk-area.jpg.jpg');
@@ -176,7 +178,7 @@ header {
 }
 header nav {
   display: flex;
-  justify-content: center;
+  justify-content: last baseline;
 }
 header nav a {
   padding: 1% 3%;
@@ -189,15 +191,30 @@ header nav a {
 header nav a:hover {
   color: black;
 }
-div h1 {
-  color: white;
-  font-size: 5.5rem;
+.titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.titles div {
   text-align: center;
+  color: white;
+}
+.titles div h1 {
+  color: black;
+  font-size: 5.5rem;
   margin: 10%;
 }
+/* About Section*/
 #about {
+  background-color: ;
   height: 80vh;
 }
-#about .about-me {
-  width: 100%;
+#about .text-container {
+  display: flex;
+  justify-content: center;
+}
+#about .text-container div {
+  width: 60%;
 }
